@@ -27,6 +27,7 @@ html {
   color: #444;
   margin-left: 4%;
   margin-right: 5%;
+  margin-bottom: 4%;
 }
 
 
@@ -94,7 +95,7 @@ html {
 
 
 .titlesection{
-
+  position: static;
   padding: 75px 0px 30px 0px;
   font-size: 42px;
   font-weight: bold;
