@@ -12,7 +12,8 @@ html {
 
 
 .Homeimg {
-
+  position: relative;
+    top:30px;
     max-width: 100%;
 
 }
@@ -66,7 +67,7 @@ html {
 
 }
 .topnav{
-  display: relative
+  display: relative;
   overflow: hidden;
   position:fixed;
   z-index: 99999;
@@ -74,6 +75,37 @@ html {
   width: 100%;
   background-color: #000000;
 
+
+}
+h1{
+  font-weight:normal;
+   text-align: center;
+   padding-bottom: 10px;
+}
+h3{
+  font-weight:normal;
+   text-align: center;
+   padding-bottom: 10px;
+}
+.row{
+  padding-bottom: 50px;
+}
+.images{
+  max-width: 80%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.Summary p{
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 18px;
+  line-height: 150%;
+}
+.list{
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 18px;
+  line-height: 150%;
 }
 .topnav .icon {
   display: none;
@@ -92,6 +124,15 @@ html {
 .topnav a:hover{
   border-bottom: 1px solid white
 }
+.overlapPix{
+  position: relative;
+
+  padding-left: 5%;
+  padding-right: 85%;
+  min-width: 30px;
+
+}
+
 
 
 .titlesection{
@@ -230,6 +271,7 @@ html {
     text-align: left;
 
   }
+
   .titlesection{
     font-size: 32px;
   }
