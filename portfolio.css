@@ -22,7 +22,7 @@ html {
 .wrapper {
   position: relative;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 33% 33% 33%;
   grid-gap: 2%;
   background-color: #fff;
   color: #444;
@@ -38,7 +38,7 @@ html {
 }
 .projectIMG .text{
   color: black;
-  font-size: 5vw;
+  font-size: 2.8vw;
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -88,7 +88,7 @@ h3{
    padding-bottom: 10px;
 }
 .row{
-  padding-bottom: 50px;
+
 }
 .images{
   max-width: 80%;
