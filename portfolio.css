@@ -1,4 +1,6 @@
 body{
+
+
   margin:0;
   font-family: Arial, Helvetica, sans-sans-serif;
 
@@ -14,7 +16,7 @@ html {
 .Homeimg {
   position: relative;
     top:30px;
-    max-width: 100%;
+    width: 100%;
 }
 
 
@@ -76,6 +78,11 @@ html {
   background-color: #000000;
 
 
+}
+
+.subColor{
+
+  color: #007CEA;
 }
 h1{
   font-weight:normal;
