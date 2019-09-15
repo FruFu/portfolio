@@ -97,6 +97,16 @@ h3{
 .row{
 
 }
+.imgColumn{
+   float: left;
+  width: 50%;
+}
+.smallerWidth{
+  width: 70%;
+}
+.imgColumn img{
+  padding: 0, 10px, 0, 10px;
+}
 .images{
   max-width: 80%;
   padding-left: 30px;
