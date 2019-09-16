@@ -97,12 +97,20 @@ h3{
 .row{
 
 }
+.threeColumn {
+  float: left;
+  width: 33.33%;
+
+}
 .imgColumn{
    float: left;
   width: 50%;
 }
 .smallerWidth{
   width: 70%;
+}
+.smallerWidth90{
+  width: 90%;
 }
 .imgColumn img{
   padding: 0, 10px, 0, 10px;
@@ -119,11 +127,12 @@ h3{
   line-height: 150%;
 }
 .list{
-  padding-left: 15%;
+  padding-left: 13%;
   padding-right: 15%;
   font-size: 18px;
   line-height: 150%;
 }
+
 .topnav .icon {
   display: none;
 }
@@ -175,15 +184,15 @@ h3{
 }
 .centered{
   position:absolute;
-  top:30%;
-  left: 27%;
+  top:35%;
+  left: 32%;
   padding-left: auto;
   padding-right: auto;
 
   text-align: center;
   background-color: rgba(0, 0, 0, 0.5);
 
-  font-size:5vw;
+  font-size:4vw;
 }
 .profilePic{
   display: block;
@@ -332,7 +341,7 @@ h3{
   }
   .centered{
 
-    font-size:5vw;
+    font-size:4vw;
     padding-left: auto;
     padding-right: auto;
   }
