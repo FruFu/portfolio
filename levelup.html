@@ -1,244 +1,360 @@
 <!DOCTYPE html>
-<style>
+<html lang="en">
 
-  .head{
-    font-size: 52px;
-    margin-top: 150px;
-
-    text-align: center;
-  }
-  .column{
-    float: left;
-    width: 50%;
-    box-sizing: border-box;
-    padding: 50px;
-    font-size: 21px;
-  }
-  .row:after {
-  content: "";
-  display: table;
-  clear: both;
-  }
-  .downloadLink{
-    margin-left: auto;
-    margin-right: auto;
-    color:orange;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  img{
-    max-width:100%;
-    max-height:100%;
-  }
-
-  @media screen and (max-width: 800px){
-    .column{
-      width: 100%;
-      box-sizing:content-box;
-      padding: 0px;
-      text-align: justify;
-      font-size: 16px;
-    }
-    .summary{
-      padding-right: 15px;
-      padding-left: 15px;
-    }
-
-
-  }
-
-</style>
-
-<html>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="portfolio.css">
 <head>
-  <title>Edward's Portfolio</title>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134634627-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
-    gtag('config', 'UA-134634627-1');
-  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-<div class="topnav" id="myTopnav">
-  <a href="index.html#home">Home</a>
-  <a href="index.html#About Me">About Me</a>
-  <a href="index.html#Skills">Skills</a>
-  <a href="index.html#Project">Project</a>
-  <a href="index.html#Resume">Resume</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
+  <title>Level Up - Edward Fu</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/agency.css" rel="stylesheet">
+
 </head>
-<body style="margin-bottom:50px;">
-  <div >
-      <center><img src="./img/levelup/cover.jpg" alt="levelupPicture" style="width:100%;"></img></center>
-  </div>
 
-  <div class="head">
-    <center><p> Level Up Program</p></center>
-  </div>
-  <div class="Summary">
+<body id="page-top">
 
-    <p ><i>Level Up program</i> is a web app for student professional development and training management System.
-      All students are introduced to <i>The Level Up Program</i> during their onboarding process.
-      Students begin at Level 1. After completing the requirements, tests,
-      required reading and tutorials expected of them — and at their supervisor's discretion — they Level Up with the highest level being 4.
-    </p>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="index.html#page-top">EF</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html#aboutme">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html#designprocess">Design Process</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html#project">Project</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div style="font-size:21px;">
-    <center><p class="subColor">Award</p></center>
-    <p><center><a href="https://www.case.org/awards/circle-excellence/2019/level-program-online-professional-development-website" target="_blank">2019 Circle of Excellence Award</a></center></p>
-  </div>
+  </nav>
+
+  <!-- Header -->
+  <header >
+
+      <div >
+          <center><img src="./img/levelup/cover.jpg" alt="levelupPicture" style="width:100%;"></img></center>
+      </div>
+
+  </header>
+  <!-- Intro -->
+  <section class="page-section" >
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading ">Level Up Program</h2>
+          <p> A web-based application where student workforce can log in to see their progress toward the next level of employment and administrators can log in to track and assess
+            learning objectives and training activities. Administrsators shold be abe to view a
+            dashboard and assess their team quickly.</p>
+
+        </div>
+        <div class="col-lg-12 text-center">
+          <h3 class="section-subheading text-muted"></h3>
+        </div>
+        <div class="col-lg-12 text-center">
+          <a class="btn btn-primary btn-l text-uppercase" href="https://www.case.org/awards/circle-excellence/2019/level-program-online-professional-development-website" target="_blank">2019 Circle of Excellence Award</a>
+        </div>
+
+        <div class="col-lg-12 text-center">
+          <h3 class="section-subheading text-muted"></h3>
+        </div>
+
+        <div class="col-lg-6">
+          <center><h4 class="projectSubHeader">Period<h4>
+          <p class="text-muted service-heading">January 2019 - July 2019
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <center><h4 class="projectSubHeader">Project Type<h4>
+          <p class="text-muted service-heading">Work Project
+          </p>
+        </div>
+
+        <div class="col-lg-12 text-center">
+          <h3 class="section-subheading text-muted"></h3>
+        </div>
+
+        <div class="col-lg-6">
+          <center><h4 class="projectSubHeader">Tools<h4>
+          <p class="text-muted service-heading">Sketch</br>
+          Trello</br>
+          Sketch Cloud</br>
+          Excel</br>
+          Slack</br>
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <center><h4 class="projectSubHeader">Methods<h4>
+          <p class="text-muted service-heading">User & Stakeholder Interviews</br>
+          Sketching</br>
+          Wireframes</br>
+          Prototyping</br>
+          </p>
+        </div>
+
+      </div>
+      </div>
+    </section>
+
+<!-- Understand -->
+<section class="bg-light page-section" >
+<div class="container">
   <div class="row">
-  <div style="text-align: center;"class="column">
-      <p class="subColor">Period</p>
-      <p >January 2019 - July 2019</p>
-    <br>
-    <p class="subColor" >Methods</p>
-    <p>User & Stakeholder Interviews</p>
-    <p>Sketching</p>
-    <p>Wireframes</p>
-    <p>Prototyping</p>
-    <br>
+    <div class="col-lg-12 text-center">
+      <h2 class="section-heading ">Understand Current Process</h2>
 
+    </div>
   </div>
-  <div style="text-align: center;"class="column">
-      <p class="subColor">Project Type</p>
-      <p >Work Project</p>
-    <br>
-    <p class="subColor">Tools</p>
-    <p>Sketch</p>
-    <p>Trello</p>
-    <p>Sketch Cloud</p>
-    <p>Excel</p>
-    <p>Slack</p>
-  </div>
-  </div>
+  <div class="row text-center">
+    <div class="col-md-4">
+      <span >
+        <img class="icon200px" src="./img/levelup/currentProcess1.png" alt="Sketch Icon">
+      </span>
+      <p >Every student receives a personalized Leveling Document that they can view online. The students’ progress and scores are recorded and reported automatically.
+</p>
+    </div>
+    <div class="col-md-4">
+      <span >
+        <img class="icon200px" src="./img/levelup/currentProcess2.png" alt="Adobe XD Icon">
+      </span>
+      <p >Supervisors and students can initiate periodic check ins with one another to measure progress and set realistic training expectations
+</p>
+    </div>
+    <div class="col-md-4">
+      <span >
+        <img class="icon200px" src="./img/levelup/currentProcess3.png" alt="Photoshop Icon">
+      </span>
+      <p >Supervisor levels up the student when they have demonstrated the knowledge and experience outlined in the checklist
+</p>
+    </div>
 
-<br><br><br>
-<div>
-  <h1>Problems</h1>
-  <ul class="list">
-    <li>There are over 200 documents to update (1 per student) whenever the template for a LevelUp document is changed</li>
-    <ul>
-      <li>For example, when the Operations student staff unit LevelUp template is changed, you have to manually go through and make each
-        student’s LevelUp profile match the template.</li>
-    </ul>
-    <li>There is currently no way to efficiently sort or edit the information about LevelUp profiles.</li>
-    <li>There is no way to do bulk account creation for batches of student employees.</li>
-    <ul>
-      <li>For instance, when 50 students are hired all at once, you have to manually go through and create each individual
-        account, rather than instantiating the accounts all at once. </li>
-    </ul>
-    <li>The self-reporting system for student employees is not user friendly.</li>
-  </ul>
-</div>
-    <br><br><br>
-    <div class="Summary">
-      <h1>Solutions</h1>
-      <ul class="list">
-        <li>Need to Have (i.e., What does it take to get the product off the ground?)</li>
+</section>
+
+<!-- problems -->
+<section class="page-section"
+<div class="container">
+<div class="row">
+<div class="col-lg-6 text-center">
+  <h2 class="section-heading ">The Problem</h2>
+
+    <ul class="list">
+      <li>There are over 200 documents to update (1 per student) whenever the template for a LevelUp document is changed</li>
+      <ul>
+        <li>For example, when the Operations student staff unit LevelUp template is changed, you have to manually go through and make each
+          student’s LevelUp profile match the template.</li>
+        </ul>
+        <li>There is currently no way to efficiently sort or edit the information about LevelUp profiles.</li>
+        <li>There is no way to do bulk account creation for batches of student employees.</li>
         <ul>
-          <li>Student Dashboard Profile <br>
-	            Basic Functionality: To log in, see a profile, and have it be at least as good as
+          <li>For instance, when 50 students are hired all at once, you have to manually go through and create each individual
+            account, rather than instantiating the accounts all at once. </li>
+          </ul>
+          <li>The self-reporting system for student employees is not user friendly.</li>
+        </ul>
+      </h5>
+
+    </div>
+    <div class="col-lg-6 text-center">
+      <h2 class="section-heading ">The Goal</h2>
+
+        <ul class="list">
+          <li>Need to Have (i.e., What does it take to get the product off the ground?)</li>
+          <ul>
+            <li>Student Dashboard Profile <br>
+              Basic Functionality: To log in, see a profile, and have it be at least as good as
               the Google Form except in our system</li>
-          <li>Admin Dashboard <br>
-	           Basic Functionality: To log in, be able to see specific student dashboards,
-             see department stats, create/edit 	templates</li>
-        </ul>
-        <li>Should Have (i.e., Features that make the product valuable)</li>
-        <ul>
-          <li>Ranking up, including for unusual rankups like L1A - L1B</li>
-          <li>Quizzes integrated into the system (the ones that are currently Google Forms)</li>
-          <li>Improve the design of the Progress Reports Chart (the Information Tracking stuff)</li>
-          <li>Show Status of LevelUp for a Student </li>
-        </ul>
-        <li>Nice to Have (i.e., Features that would help polish the product but are not priority)</li>
-        <ul>
-          <li>Tutorial Screen for First-Time users</li>
-          <li>Attempt Student and Affiliate training Quizzes Integration</li>
-          <li>Integrate UCI data on students to assist onboarding</li>
-          <li>Attempt employee scheduling integration</li>
-        </ul>
+              <li>Admin Dashboard <br>
+                Basic Functionality: To log in, be able to see specific student dashboards,
+                see department stats, create/edit 	templates</li>
+              </ul>
+              <li>Should Have (i.e., Features that make the product valuable)</li>
+              <ul>
+                <li>Ranking up, including for unusual rankups like L1A - L1B</li>
+                <li>Quizzes integrated into the system (the ones that are currently Google Forms)</li>
+                <li>Improve the design of the Progress Reports Chart (the Information Tracking stuff)</li>
+                <li>Show Status of LevelUp for a Student </li>
+              </ul>
 
-      </ul>
+            </ul>
 
+        </div>
+
+      </div>
     </div>
-    <br><br><br>
-    <div>
-      <h1>WireFrames</h1>
-      <center><img src="./img/levelup/Wireframe.png" alt="levelupwireframe" class="images"></img></center>
+  </section>
+
+
+<!-- Research -->
+<section class="bg-light page-section" >
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading ">Research</h2>
+
+      </div>
+      <div class="col-lg-5 text-center">
+          <center><img src="./img/levelup/interviewPix.png" alt="UserInterview" style="width:80%;"></img></center>
+      </div>
+      <div class="col-lg-7 ">
+        <h4 >User Interview</h4>
+        <p>Conducted over 5 interviews with potential users (student employees), managers, and human resource. My questions mainly focused on what feature each user is looking for and what they don't like about the current process.</p>
+      </div>
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading "> </h2>
+        <div class="aligncenter" style="width:100%;height:0;border-top:2px solid #bebebe;font-size:0;">-</div>
+        <h2 class="section-heading "> </h2>
+      </div>
+
+      <div class="col-lg-5 ">
+        <h4 >User Persona</h4>
+        <p>Cyrus is one of the three potential user persona I created, but I wanted to hilight Cyrus as my main user.
+          Cyrus's job is human resource, and as a human resource he has all the features in the system.
+          Includig but not limited to hire/fire workers, view everyones process, add requirement, and approve trainings. </p>
+      </div>
+      <div class="col-lg-7 text-center">
+          <center><img src="./img/levelup/Persona.png" alt="Persona" style="width:100%;"></img></center>
+      </div>
     </div>
-    <br><br><br>
-    <div>
-      <h1>Flowchart</h1>
-      <center><img src="./img/levelup/FlowChart.png" alt="levelupFlowChart" class="images"></img></center>
+
+    </section>
+
+    <!-- Design -->
+    <section class=" page-section" >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading ">Design</h2>
+
+          </div>
+
+          <div class="col-lg-12 text-center">
+            <h4 >Wireframes</h4>
+            <p>Base on the interviews and the feedbacks that was given, I created the wireframes
+              to outline the placement of the page. Soon after I went back for a second interview and
+              showed them the wireframes for feedbacks.<p>
+            <center><img src="./img/levelup/Wireframe.png" alt="wireframe" style="width:100%;"></img></center>
+          </div>
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading "></h2>
+
+          </div>
+          <div class="col-lg-12 text-center">
+            <h4 >Information Architecture</h4>
+            <p class="addBotPad20"> I created the information architecture after my second interview. It shows the whole structure of the website and the navigation of the app.
+              This not only give the users a clear view of all the posible features, but also reduce confusion for the developers.<p>
+            <center><img src="./img/levelup/FlowChart.png" alt="flowchart" style="width:100%;"></img></center>
+          </div>
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading "></h2>
+
+          </div>
+          <div class="col-lg-12 text-center">
+            <h4 >Prototype</h4>
+            <p class="addBotPad20"> With my research and feedback from the wireframes, I designed the prototype of the application.
+              After I finished the prototype, my company requires me to route the prototype to the managers
+               and other higher ups for approval or design critiques. When it's not approve, the prototype will get
+                rout back to me to make improvement and repeat the process again until approval.<p>
+            <center><img src="./img/levelup/prototype.png" alt="flowchart" style="width:100%;" ></img></center>
+          </div>
+
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading "></h2>
+
+          </div>
+
+        <div class="col-lg-4 text-center" >
+        </div>
+        <div class="col-lg-4 text-center">
+          <a class="btn btn-primary btn-l text-uppercase" href="https://sketch.cloud/s/JWDGM" target="_blank">View Prototype</a>
+        </div>
+        <div class="col-lg-4 text-center ">
+          <a class="btn btn-secondary btn-l "  href="ASW.html" >View Next Project ></a>
+        </div>
+        </div>
+        </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <h5>714-388-4818<h5>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline social-buttons">
+
+            <li class="list-inline-item">
+              <a href="https://linkedin.com/in/edward-fu-linkin/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Edwardf1@uci.edu<h5>
+        </div>
+
+      </div>
     </div>
-    <br><br><br>
-    <div>
-      <h1>Prototype</h1>
-      <div>
-        <center><img src="./img/levelup/prototype.png" alt="levelupPrototype" class="images"></img></center>
-    </div>
-    </div>
-    <br><br><br>
+  </footer>
 
 
 
-  <br>
-  <div>
-    <center><a class="downloadLink" href="https://sketch.cloud/s/JWDGM" target="_blank">View Project</a></center>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  </div>
-  <div class="row">
-  <div style="text-align: center;"class="column">
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  </div>
-  <div style="text-align: center;"class="column">
-    <a href="ASW.html"><p>View Next Project<br> (Art Supply Warehouse) ></p><a>
-  </div>
-  </div>
+  <!-- Contact form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
 
-
-
-
-</div>
+  <!-- Custom scripts for this template -->
+  <script src="js/agency.min.js"></script>
 
 </body>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-<footer>
-
-  <center>
-    <div class="footerText" style="padding-top:10px;">Edward Fu
-
-
-    <p><span>Email: edwardf1@uci.edu</span>
-      <span style="padding-left:15px; padding-right:15px;">•</span>
-
-    <span>Phone Number: 714-388-4818</span></p>
-
-  </div></center>
-
-  <a href="http://www.linkedin.com/in/edward-fu-linkin"target="_blank">
-    <img  class="linkinIcon" src="./img/Linkin.png" alt="Linkin" >
-  </a>
-
-
-
-</footer>
-
-
-
 
 </html>
+<!-- text change in home page -->
+<script>
+var text = ["design", "research", "problem solve"];
+var counter = 0;
+var elem = document.getElementById("changeText");
+var inst = setInterval(change, 1500);
+
+function change() {
+  elem.innerHTML = text[counter];
+  counter++;
+  if (counter >= text.length) {
+    counter = 0;
+    // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
+  }
+}
+</script>

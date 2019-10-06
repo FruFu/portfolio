@@ -1,366 +1,517 @@
 <!DOCTYPE html>
-<style>
+<html lang="en">
 
-  .head{
-    font-size: 52px;
-    margin-top: 150px;
-
-    text-align: center;
-  }
-  .column{
-    float: left;
-    width: 50%;
-    box-sizing: border-box;
-    padding: 50px;
-    font-size: 21px;
-  }
-  .row:after {
-  content: "";
-  display: table;
-  clear: both;
-  }
-  .downloadLink{
-    margin-left: auto;
-    margin-right: auto;
-    color:orange;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  img{
-    max-width:100%;
-    max-height:100%;
-  }
-
-  @media screen and (max-width: 800px){
-    .column{
-      width: 100%;
-      box-sizing:content-box;
-      padding: 0px;
-      text-align: justify;
-      font-size: 16px;
-    }
-    .summary{
-      padding-right: 15px;
-      padding-left: 15px;
-    }
-
-
-  }
-
-</style>
-
-<html>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="portfolio.css">
 <head>
-  <title>Edward's Portfolio</title>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134634627-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
-    gtag('config', 'UA-134634627-1');
-  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-<div class="topnav" id="myTopnav">
-  <a href="index.html#home">Home</a>
-  <a href="index.html#About Me">About Me</a>
-  <a href="index.html#Skills">Skills</a>
-  <a href="index.html#Project">Project</a>
-  <a href="index.html#Resume">Resume</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
+  <title>ASW - Edward Fu</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/agency.css" rel="stylesheet">
+
 </head>
-<body style="margin-bottom:50px;">
-  <div >
-      <center><img src="./img/ASW/cover.jpg" alt="levelupPicture" style="width:100%;"></img></center>
-  </div>
-  <div class="head">
-    <center><p> Art Supply Warehouse</p></center>
-  </div>
-  <div class="Summary">
-    <p>Researched and redesigned the website, Art Supply Warehouse, to improve the UI/UX experience for the users. The document includes a list of personas and high-fidelity mockups we created by analyzing the data from surveys, interviews, cognitive walkthrough, and usability testing. Documentation includes all the questions we ask for surveys, interviews and the tasks for completing the cognitive walkthrough. We use the data we gathered to develop a better version of
-      the website.</p>
-  </div>
-  <div class="row">
-  <div style="text-align: center;"class="column">
-    <p class="subColor">Period</p>
-   <p >March - June 2018</p>
-   <br>
-   <p class="subColor">Methods</p>
-     <p>UX Research</p>
-     <p>UI Redesign</p>
-     <p>Interviews</p>
-     <p>Surveys</p>
-     <p>Cognitive Walkthrough</p>
-     <p>Usability Testing</p>
-   <br>
-  </div>
-  <div style="text-align: center;"class="column">
-      <p class="subColor">Project Type</p>
-      <p >School Project</p>
-    <br>
-    <p class="subColor">Tools</p>
-      <p>Sketch</p>
-      <p>InVision</p>
-      <p>Screen Recorder</p>
-    <br>
 
+<body id="page-top">
 
-  </div>
-  </div>
-
-
-
-
-  <!--<div class="column">
-    <div class="summary">
-    <p style="padding-right:10px;">Researched and redesigned the website, Art Supply Warehouse, to improve the UI/UX experience for the users. The document includes a list of personas and high-fidelity mockups we created by analyzing the data from surveys, interviews, cognitive walkthrough, and usability testing. Documentation includes all the questions we ask for surveys, interviews and the tasks for completing the cognitive walkthrough. We use the data we gathered to develop a better version of
-      the website.</p>
-  </div>
-</div>-->
-<div class="Summary">
-  <h1>Methods</h1>
-  <p>We employed two methods for gathering user information; personal
-interviews and surveys.<br><br>
-There were a total of ten interviews conducted. Each interview was thirty
-minutes in length and consisted, in part, of personal questions regarding age,
-employment, place the participant grew up and education. The other part dealt
-more with attitudes and behaviors with respect to technology and online
-shopping habits.<br><br>
-The team received 24 responses. Those received via Facebook were anonymous and
-random. The questions consisted of a few specific demographics such as age,
-gender and frequency of online shopping. Most of the survey asked the
-participant to rate various online shopping behaviors and attitudes.</p>
-</div><br>
-
-<div class="Summary">
-  <h1>Findings</h1>
-  <div class="row">
-    <h3>Interview Questions</h3>
-  <center><div class="imgColumn">
-
-    <center><img src="./img/ASW/interviewQuestion1.png" class="smallerWidth" alt="interviewQuestion1"></img></center>
-  </div></center>
-  <center><div class="imgColumn">
-    <center><img src="./img/ASW/interviewQuestion2.png" class="smallerWidth" alt="interviewQuestion2"></img></center>
-  </div></center>
-  </div>
-  <div class="row">
-    <h3>Survey Results</h3>
-    <div class="threeColumn" >
-      <center><img src="./img/ASW/Survey1.png" class="smallerWidth90" alt="Survey Result 1"></img></center>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="index.html#page-top">EF</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html#aboutme">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html#designprocess">Design Process</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html#project">Project</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="threeColumn" >
-      <center><img src="./img/ASW/Survey2.png" class="smallerWidth90" alt="Survey Result 2"></img></center>
+  </nav>
+
+  <!-- Header -->
+  <header >
+
+      <div >
+          <center><img src="./img/ASW/cover.jpg" alt="ASWPicture" style="width:100%;"></img></center>
+      </div>
+
+  </header>
+  <!-- Intro -->
+  <section class="page-section" >
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading ">Art Supply Warehouse (UX Research)</h2>
+          <p> Researched and redesigned the website, Art Supply Warehouse, to improve the UI/UX experience for the users.
+            The document includes a list of personas and high-fidelity mockups we created by analyzing the data from surveys,
+            interviews, cognitive walkthrough, and usability testing. Documentation includes all the questions we ask for surveys,
+            interviews and the tasks for completing the cognitive walkthrough. We use the data we gathered to develop a better
+            version of the website.</p>
+
+        </div>
+
+
+
+        <div class="col-lg-12 text-center">
+          <h3 class="section-subheading text-muted"></h3>
+        </div>
+
+        <div class="col-lg-6">
+          <center><h4 class="projectSubHeader">Period<h4>
+          <p class="text-muted service-heading">March - June 2018
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <center><h4 class="projectSubHeader">Project Type<h4>
+          <p class="text-muted service-heading">School Project
+          </p>
+        </div>
+
+        <div class="col-lg-12 text-center">
+          <h3 class="section-subheading text-muted"></h3>
+        </div>
+
+        <div class="col-lg-6">
+          <center><h4 class="projectSubHeader">Tools<h4>
+          <p class="text-muted service-heading">Sketch</br>
+          InVision</br>
+          Screen Recorder</br>
+          Google Drive</br>
+          Slack</br>
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <center><h4 class="projectSubHeader">Methods<h4>
+          <p class="text-muted service-heading">User Interviews</br>
+          User Surveys</br>
+          Cognitive Walkthrough</br>
+          Usability Testing</br>
+          </p>
+        </div>
+
+      </div>
+      </div>
+    </section>
+
+<!-- Understand -->
+<section class="bg-light page-section" id="skills">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h2 class="section-heading ">Understand</h2>
     </div>
-    <div class="threeColumn" >
-      <center><img src="./img/ASW/Survey3.png" class="smallerWidth90" alt="Survey Result 3"></img></center>
+    <div class="col-lg-5 ">
+      <h4>The Company</h4>
+      <p>ASW is not a large company and their website provides no indication that
+        they have employed any type of research into usability. As such, this website
+        became the perfect redesign project. There appears to be a limitless number of
+        usability issues to work with. </p>
     </div>
-  </div><br>
-
-  <ul class="list">
-  <li>Most of the participants think product presentation is
-important.</li>
-  <li>If a product is not easy to find, they will switch to
-  another website just out of frustration.</li>
-  <li>Almost all survey takers and interviewees agreed that product reviews are
-  extremely valuable to them such that they can directly affect their decision to
-  buy products.</li>
-  <li>Customer service is one
-of the essential key factors to a company’s success because it directly correlates
-to both the experience of the consumers and to the brand image of the company.</li>
-<li>Participants stated that they do not mind seeing special deals when shopping online,
-  as long as they are relevant, but they do not like seeing any pop-up ads.</li>
-</ul>
-</div><br>
-
-<div class="Summary">
-  <h1>Cognitive Walkthrough Task List</h1>
-  <p> To check and evaluate how well the website’s interface suits the user’s
-needs, a cognitive walkthrough will be executed analyzing each step the user
-takes in completing their tasks. Criteria that will be considered during the
-walkthrough will be an evaluation of whether the ASW website provides a clear
-and responsive layout; is the site providing the user with appropriate feedback
-upon their actions. </p>
-<div class="row">
-  <div class="threeColumn" >
-    <center><img src="./img/ASW/CogWalkthroughTask1.png" class="smallerWidth90" alt="Cognitive walkthough example1"></img></center>
-  </div>
-  <div class="threeColumn" >
-    <center><img src="./img/ASW/CogWalkthroughTask2.png" class="smallerWidth90" alt="Cognitive walkthough example2"></img></center>
-  </div>
-  <div class="threeColumn" >
-    <center><img src="./img/ASW/CogWalkthroughTask3.png" class="smallerWidth90" alt="Cognitive walkthough example3"></img></center>
-  </div>
-</div>
-
-
-</div><br>
-
-<div class="Summary">
-  <h1>Usability Task List</h1>
-
-    <ol class="list">
-      <li>Sign up for website.</li>
-      <li>Search, and add an item to cart.</li>
-      <li>Buy item.</li>
-      <li>Make a list.</li>
-      <li>Find a particular list, and find the item in the list (add it to cart)</li>
-      <li>Find out the shipping method and fee for an item.</li>
-    </ol>
-<div class="row">
-  <div class="threeColumn" >
-    <center><img src="./img/ASW/UsabilityTask1.png" class="smallerWidth90" alt="Usability task example1"></img></center>
-  </div>
-  <div class="threeColumn" >
-    <center><img src="./img/ASW/UsabilityTask2.png" class="smallerWidth90" alt="Usability task example2"></img></center>
-  </div>
-  <div class="threeColumn" >
-    <center><img src="./img/ASW/UsabilityTask3.png" class="smallerWidth90" alt="Usability task example3"></img></center>
-  </div>
-</div><br>
-<div class="row">
-  <div class="threeColumn" >
-    <center><img src="./img/ASW/UsabilityTask4.png" class="smallerWidth90" alt="Usability task example4"></img></center>
-  </div>
-  <div class="threeColumn" >
-    <center><img src="./img/ASW/UsabilityTask5.png" class="smallerWidth90" alt="Usability task example5"></img></center>
-  </div>
-  <div class="threeColumn" >
-    <center><img src="./img/ASW/UsabilityTask6.png" class="smallerWidth90" alt="Usability task example6"></img></center>
-  </div>
-</div>
-</div><br>
-
-
-<div class="Summary">
-  <h1>Usability Testing Problems and Analysis</h1>
-  <p>Below is our team’s list of rankings from major to minor that demonstrates how
-much each issue affects the ASW website performance and the time it takes to
-complete certain task; as experienced by our usability testing participants.<p>
-  <ul class="list">
-  <li>Poor Content Layout</li>
-  <li>Poor Search Filter</li>
-  <li>Lack of Feedback / Confirmation of Actions</li>
-</ul>
-
-</div><br>
-
-<div class="Summary">
-  <h1>UI Redesign</h1>
-
-  <div class="row">
-  <center><div class="imgColumn">
-    <h4>Current List System</h4>
-    <center><img src="./img/ASW/CurrentList.png" class="smallerWidth" alt="Old AWS List system"></img></center>
-  </div></center>
-  <center><div class="imgColumn">
-    <h4>List System Redesign</h4>
-    <center><img src="./img/ASW/ListRedesign.png" class="smallerWidth" alt="New AWS List system"></img></center>
-  </div></center>
-  </div>
-<br><br>
-
-  <div class="row" >
-  <center><div class="imgColumn">
-    <h4>Current Search System</h4>
-    <center><img src="./img/ASW/CurrentSearch.png" class="smallerWidth" alt="Old AWS Search System"></img></center>
-  </div></center>
-  <center><div class="imgColumn">
-    <h4>Search System Redesign</h4>
-    <center><img src="./img/ASW/RedesignSearch.png" class="smallerWidth" alt="New AWS Search system"></img></center>
-  </div></center>
-  </div>
-<br><br>
-
-  <div class="row">
-  <center><div class="imgColumn">
-    <h4>Current Feedback</h4>
-    <center><img src="./img/ASW/CurrentFeedback.png" class="smallerWidth" alt="Old AWS Search System"></img></center>
-  </div></center>
-  <center><div class="imgColumn">
-    <h4>Feedback Redesign</h4>
-    <center><img src="./img/ASW/RedesignFeedback.png" class="smallerWidth" alt="New AWS Search system"></img></center>
-  </div></center>
-  </div>
-
-</div><br>
-
-<div class="Summary">
-  <h1>Conclusion</h1>
-  <p>Although the redesign still falls short in some heuristic aspects, it has been
-demonstrated through evaluations that it offers significant improvements
-compared to the original design in terms of clarity and usability. Overall, the redesign is a well-balanced synthesis of
-theories, research, and practices, following the basic heuristic guidelines of
-interface design.</p>
-</div><br>
-
-  <!--<div>
-    <center><img src="./img/ASW/ASWimg.png" alt="ASWPicture"></img></center>
-  </div>-->
-
-  <br>
-  <div>
-    <center><a class="downloadLink" href="./pdf/Heuristic Evaluation & Final Project Report.pdf" target="_blank">View Project</a></center>
-  </div>
-  <div class="row">
-  <div style="text-align: center;"class="column">
-    <a href="levelup.html"><p>< View Previous Project<br>(Level Up Program)</p><a>
-  </div>
-  <div style="text-align: center;"class="column">
-    <a href="RealTime.html"><p>View Next Project<br>(UCI Real-Time Ops Web) ></p><a>
-  </div>
+    <div class="col-lg-7 text-center">
+        <center><img src="./img/ASW/ASWHome.png" alt="Persona" style="width:100%;"></img></center>
+    </div>
   </div>
 
 
+</section>
+
+<!-- Research -->
+<section class="page-section" >
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading ">Research</h2>
+
+      </div>
+      <div class="col-lg-5 text-center">
+          <center><img src="./img/ASW/competitive analysis.png" alt="CompetitiveAnalysis" style="width:100%;"></img></center>
+      </div>
+      <div class="col-lg-7 ">
+        <h4 >Competitive & Comparative Analysis</h4>
+        <p>We compared Art Supply Warehouse to five other company that sells arts and crafts materials.
+           Two direct competitors (Jo-Ann, Michael's) due to the same target audiences and two indirect
+           competitors (Amazon, Walmart) due to the ability of selling cheap and affordable art materials.</p>
+      </div>
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading "> </h2>
+        <div class="aligncenter" style="width:100%;height:0;border-top:2px solid #bebebe;font-size:0;">-</div>
+        <h2 class="section-heading "> </h2>
+      </div>
 
 
-</div>
+      <div class="col-lg-5 ">
+        <h4 >User Persona</h4>
+        <p>Nick is a senior at the Univerity of California, San Diego majoring in art.
+          I want to focus on Nick because he is a broke college student and tries to find the best quality
+          of art supply while staying within budget. He and other ten thousand college students who also are persuing in the art field could be potential customer for the Art Supply Warehouse.</p>
+      </div>
+      <div class="col-lg-7 text-center">
+          <center><img src="./img/ASW/persona.png" alt="Persona" style="width:100%;"></img></center>
+      </div>
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading "> </h2>
+        <div class="aligncenter" style="width:100%;height:0;border-top:2px solid #bebebe;font-size:0;">-</div>
+        <h2 class="section-heading "> </h2>
+      </div>
+
+
+      <div class="col-lg-5 text-center">
+          <center><img src="./img/ASW/interviewQuestion1.png" alt="Interview Questions" style="width:100%;"></img></center>
+      </div>
+      <div class="col-lg-7 ">
+        <h4 >User Interviews</h4>
+        <p>There were a total of ten interviews conducted. Each interview was thirty minutes in length and consisted,
+          in part, of personal questions regarding age, employment, place the participant grew up and education.
+          The other part dealt more with attitudes and behaviors with respect to technology and online shopping habits.</p>
+      </div>
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading "> </h2>
+        <div class="aligncenter" style="width:100%;height:0;border-top:2px solid #bebebe;font-size:0;">-</div>
+        <h2 class="section-heading "> </h2>
+      </div>
+
+
+      <div class="col-lg-12 ">
+        <h4 class="text-center">User Survey</h4>
+        <p class="addBotPad20">The team received 24 responses. Those received via Facebook were anonymous and random.
+          The questions consisted of a few specific demographics such as age, gender and frequency
+          of online shopping. Most of the survey asked the participant to rate various online shopping
+          behaviors and attitudes.</p>
+      </div>
+      <div class="col-lg-4 text-center">
+          <center><img src="./img/ASW/Survey1.png" alt="Persona" style="width:100%;"></img></center>
+      </div>
+      <div class="col-lg-4 text-center">
+          <center><img src="./img/ASW/Survey2.png" alt="Persona" style="width:100%;"></img></center>
+      </div>
+      <div class="col-lg-4 text-center">
+          <center><img src="./img/ASW/Survey3.png" alt="Persona" style="width:100%;"></img></center>
+      </div>
+
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading "> </h2>
+        <div class="aligncenter" style="width:100%;height:0;border-top:2px solid #bebebe;font-size:0;">-</div>
+        <h2 class="section-heading "> </h2>
+      </div>
+
+
+      <div class="col-lg-12 ">
+        <h4 class="text-center">Cognitive Walkthrough</h4>
+        <p class="addBotPad20">To check and evaluate how well the website’s interface suits the user’s needs,
+          a cognitive walkthrough will be executed analyzing each step the user takes in completing their tasks.
+          Criteria that will be considered during the walkthrough will be an evaluation of whether the ASW website
+          provides a clear and responsive layout; is the site providing the user with appropriate feedback upon their actions.</p>
+      </div>
+      <div class="col-lg-4 text-center">
+          <center><img src="./img/ASW/CogWalkthroughTask1.png" alt="CogWalkthroughTask" style="width:100%;"></img></center>
+      </div>
+      <div class="col-lg-4 text-center">
+          <center><img src="./img/ASW/CogWalkthroughTask2.png" alt="CogWalkthroughTask" style="width:100%;"></img></center>
+      </div>
+      <div class="col-lg-4 text-center">
+          <center><img src="./img/ASW/CogWalkthroughTask3.png" alt="CogWalkthroughTask" style="width:100%;"></img></center>
+      </div>
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading "> </h2>
+        <div class="aligncenter" style="width:100%;height:0;border-top:2px solid #bebebe;font-size:0;">-</div>
+        <h2 class="section-heading "> </h2>
+      </div>
+
+      <div class="col-lg-12 ">
+        <h4 class="text-center">Usability Testing</h4>
+        <p class="addBotPad20">We conducted usability testing on 5 different potential users with 6 task list. Each test we asked
+          the tester to think aloud to understand their thought process. The test was recorded with screen recorder
+          which captures all the mouse movement and their voice.</p>
+          <ol class="list">
+            <li>Sign up for website.</li>
+            <li>Search, and add an item to cart.</li>
+            <li>Buy item.</li>
+            <li>Make a list.</li>
+            <li>Find a particular list, and find the item in the list (add it to cart)</li>
+            <li>Find out the shipping method and fee for an item.</li>
+          </ol>
+      </div>
+      <div class="col-lg-4 text-center">
+          <center><img src="./img/ASW/UsabilityTask1.png" alt="CogWalkthroughTask" style="width:100%;"></img></center>
+      </div>
+      <div class="col-lg-4 text-center">
+          <center><img src="./img/ASW/UsabilityTask2.png" alt="CogWalkthroughTask" style="width:100%;"></img></center>
+      </div>
+      <div class="col-lg-4 text-center">
+          <center><img src="./img/ASW/UsabilityTask3.png" alt="CogWalkthroughTask" style="width:100%;"></img></center>
+      </div>
+
+    </div>
+
+    </section>
+
+    <!-- Findings -->
+    <section class="bg-light page-section" >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading ">Findings</h2>
+          </div>
+          <div class="col-lg-6 text-center">
+          <h4 class="section-heading addBotPad20">Surveys/Interviews</h4>
+
+          <ul class="list">
+            <li>Most of the participants think product presentation is
+              important.</li>
+              <li>If a product is not easy to find, they will switch to
+                another website just out of frustration.</li>
+                <li>Almost all survey takers and interviewees agreed that product reviews are
+                  extremely valuable to them such that they can directly affect their decision to
+                  buy products.</li>
+                  <li>Customer service is one
+                    of the essential key factors to a company’s success because it directly correlates
+                    to both the experience of the consumers and to the brand image of the company.</li>
+                    <li>Participants stated that they do not mind seeing special deals when shopping online,
+                      as long as they are relevant, but they do not like seeing any pop-up ads.</li>
+                    </ul>
+
+            </div>
+            <div class="col-lg-6 text-center">
+              <h4 class="section-heading addBotPad20">Cognitive Walkthrough/ Usability Testing</h4>
+
+                <ul class="list">
+                  <li >Poor Content Layout</li>
+                  <ul>
+                    <li>All of the text has the same characteristics such as color, font size and font style</li>
+                    <li>the website hard to read and affordances such as the Search Bar and the Login / Register clickable text, easily overlooked.</li>
+
+                  </ul>
+                      <li>Poor Search Filter </li>
+                      <ul>
+                        <li>All the participants complained about how their search results did not match their general expectations.</li>
+                        <li>The range of the Search feature is too broad.</li>
+                      </ul>
+
+                      <li>Lack of Feedback / Confirmation of Actions </li>
+                      <ul>
+                        <li>Many of our testing participants pointed out that there were no indicators confirming their actions. </li>
+                      </ul>
+
+                    </ul>
+                </div>
+
+
+        </div>
+        <div>
+
+
+
+
+
+        </section>
+
+
+  <!-- Design -->
+  <section class=" page-section" id="skills">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading ">UI Redesign</h2>
+        </div>
+
+        <div class="col-lg-6 text-center">
+          <h4 class="section-heading addBotPad20">Current List System</h4>
+          <center><img src="./img/ASW/CurrentList.png" alt="CurrentList" style="width:100%;"></img></center>
+        </div>
+        <div class="col-lg-6 text-center">
+          <h4 class="section-heading addBotPad20">List System Redesign</h4>
+          <center><img src="./img/ASW/ListRedesign.png" alt="ListRedesign" style="width:100%;"></img></center>
+        </div>
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading "> </h2>
+          <div class="aligncenter" style="width:100%;height:0;border-top:2px solid #bebebe;font-size:0;">-</div>
+          <h2 class="section-heading "> </h2>
+        </div>
+
+
+        <div class="col-lg-6 text-center">
+          <h4 class="section-heading addBotPad20">Current Search System</h4>
+          <center><img src="./img/ASW/CurrentSearch.png" alt="Current Search System" style="width:100%;"></img></center>
+        </div>
+        <div class="col-lg-6 text-center">
+          <h4 class="section-heading addBotPad20">Search System Redesign</h4>
+          <center><img src="./img/ASW/RedesignSearch.png" alt="Search System Redesign" style="width:100%;"></img></center>
+        </div>
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading "> </h2>
+          <div class="aligncenter" style="width:100%;height:0;border-top:2px solid #bebebe;font-size:0;">-</div>
+          <h2 class="section-heading "> </h2>
+        </div>
+
+        <div class="col-lg-6 text-center">
+          <h4 class="section-heading addBotPad20">Current Feedback</h4>
+          <center><img src="./img/ASW/CurrentFeedback.png" alt="Current Feedback" style="width:100%;"></img></center>
+        </div>
+        <div class="col-lg-6 text-center">
+          <h4 class="section-heading addBotPad20">Feedback Redesign</h4>
+          <center><img src="./img/ASW/RedesignFeedback.png" alt="Feedback Redesign" style="width:100%;"></img></center>
+        </div>
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading "> </h2>
+          <div class="aligncenter" style="width:100%;height:0;border-top:2px solid #bebebe;font-size:0;">-</div>
+          <h2 class="section-heading "> </h2>
+        </div>
+
+        <div class="col-lg-5 ">
+          <h4 class="addBotPad20">New Feature (Pick-A-Pack)</h4>
+          <p>We considered a brand new feature that could potentially set ASW apart from other art websites and potentially influence users to shop with ASW over larger retailers, like Amazon or Walmart.</p>
+          <P>Pick-A-Pack allows consumers to create their own custom sets of reusable art supplies such as pencils, pens, markers and paints.</p>
+        </div>
+        <div class="col-lg-7 text-center">
+            <center><img src="./img/ASW/PickAPack.png" alt="PickAPack" style="width:100%;"></img></center>
+        </div>
+
+
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- test -->
+  <section class="bg-light page-section" >
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading ">Test</h2>
+      </div>
+      <div class="col-lg-5 text-center">
+          <center><img src="./img/ASW/HeuristicEval.png" alt="HeuristicEval" style="width:100%;"></img></center>
+      </div>
+      <div class="col-lg-7 ">
+        <h4>Heuristic Evaluation</h4>
+        <p>To ensure that our redesign improves the usability of the website, the team performed a heuristic evaluation to determine if it follows the online standard for interface design. For the redesign to be considered a success, it is important that there is a noticeable improvement in regards to the website’s feel. Heuristic evaluations allow the team to turn that “feel” into quantifiable data.</p>
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- Conclusion -->
+  <section class=" page-section" >
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading ">Conclusion</h2>
+      </div>
+              <p>Although the redesign still falls short in some heuristic aspects,
+                it has been demonstrated through evaluations that it offers significant
+                 improvements compared to the original design in terms of clarity and usability.
+                  Not only is the redesign more likely to fulfill user satisfaction and ensure a
+                   better user experience, it also has a great chance to expand ASW’s customer base
+                   with the new Pick-A-Pack feature. Overall, the redesign is a well-balanced synthesis of theories,
+                   research, and practices, following the basic heuristic guidelines of interface design.</p>
+
+       <div class="col-lg-12 text-center">
+         <h2 class="section-heading "></h2>
+
+       </div>
+
+
+       <div class="col-lg-4 text-center" >
+         <a  class="btn btn-secondary btn-l " href="levelup.html" > < View Previous Project </a>
+       </div>
+       <div class="col-lg-4 text-center">
+         <a class="btn btn-primary btn-l text-uppercase" href="./pdf/Heuristic Evaluation & Final Project Report.pdf" target="_blank">View Documentation</a>
+       </div>
+       <div class="col-lg-4 text-center ">
+         <a class="btn btn-secondary btn-l "  href="RealTime.html" >View Next Project ></a>
+       </div>
+
+    </div>
+
+
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <h5>714-388-4818<h5>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline social-buttons">
+
+            <li class="list-inline-item">
+              <a href="https://linkedin.com/in/edward-fu-linkin/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Edwardf1@uci.edu<h5>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/agency.min.js"></script>
 
 </body>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-<footer>
-
-  <center>
-    <div class="footerText" style="padding-top:10px;">Edward Fu
-
-
-    <p><span>Email: edwardf1@uci.edu</span>
-      <span style="padding-left:15px; padding-right:15px;">•</span>
-
-    <span>Phone Number: 714-388-4818</span></p>
-
-  </div></center>
-
-  <a href="http://www.linkedin.com/in/edward-fu-linkin"target="_blank">
-    <img  class="linkinIcon" src="./img/Linkin.png" alt="Linkin" >
-  </a>
-
-
-
-</footer>
-
-
-
 
 </html>
+<!-- text change in home page -->
 <script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className == "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
+var text = ["design", "research", "problem solve"];
+var counter = 0;
+var elem = document.getElementById("changeText");
+var inst = setInterval(change, 1500);
+
+function change() {
+  elem.innerHTML = text[counter];
+  counter++;
+  if (counter >= text.length) {
+    counter = 0;
+    // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
+  }
 }
 </script>

@@ -1,207 +1,307 @@
 <!DOCTYPE html>
-<style>
+<html lang="en">
 
-  .head{
-    font-size: 52px;
-    margin-top: 150px;
-
-    text-align: center;
-  }
-  .column{
-    float: left;
-    width: 50%;
-    box-sizing: border-box;
-    padding: 50px;
-    font-size: 21px;
-  }
-  .row:after {
-  content: "";
-  display: table;
-  clear: both;
-  }
-  .downloadLink{
-    margin-left: auto;
-    margin-right: auto;
-    color:orange;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  img{
-    max-width:100%;
-    max-height:100%;
-  }
-
-  @media screen and (max-width: 800px){
-    .column{
-      width: 100%;
-      box-sizing:content-box;
-      padding: 0px;
-      text-align: justify;
-      font-size: 16px;
-    }
-    .summary{
-      padding-right: 15px;
-      padding-left: 15px;
-    }
-
-
-  }
-
-</style>
-
-<html>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="portfolio.css">
 <head>
-  <title>Edward's Portfolio</title>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134634627-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
-    gtag('config', 'UA-134634627-1');
-  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-<div class="topnav" id="myTopnav">
-  <a href="index.html#home">Home</a>
-  <a href="index.html#About Me">About Me</a>
-  <a href="index.html#Skills">Skills</a>
-  <a href="index.html#Project">Project</a>
-  <a href="index.html#Resume">Resume</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
+  <title>Real Time Ops - Edward Fu</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/agency.css" rel="stylesheet">
+
 </head>
-<body style="margin-bottom:50px;">
-  <div >
-      <center><img src="./img/RealTime/cover.jpg" alt="RealTimeOpsPicture" style="width:100%;"></img></center>
-  </div>
 
-  <div class="head">
-    <center ><p> UCI Real-Time Ops Web (Redesign)</p></center>
-  </div>
-  <div class="Summary">
+<body id="page-top">
 
-    <p >SCES Real-Time Ops is a web that has been use by all the managers in
-      the UCI Student Center & Event Services. The purpose of this app is to
-      automate and show the Student Center shift report data. Ensure the voice
-      of the customer is consistently considered in strategic action items and
-      key requirements of product and process design.</p>
-    </div>
-  <div class="row">
-  <div style="text-align: center;"class="column">
-      <p class="subColor">Period</p>
-      <p >March 2019 - June 2019</p>
-    <br>
-    <p class="subColor" >Methods</p>
-    <p>User & Stakeholder Interviews</p>
-    <p>Sketching</p>
-    <p>Wireframes</p>
-    <p>Prototyping</p>
-    <br>
-
-  </div>
-  <div style="text-align: center;"class="column">
-      <p class="subColor">Project Type</p>
-      <p >Work Project</p>
-    <br>
-    <p class="subColor">Tools</p>
-    <p>UI/UX Design</p>
-    <p>Wireframing</p>
-    <p>Evaluate User Requirements</p>
-  </div>
-  </div>
-
-<br><br><br>
-<div>
-  <h1>Problems</h1>
-  <h3>Information Overload</h3>
-  <center><img src="./img/RealTime/problem1.png" alt="problem1" style="width:80%; padding-bottom:50px;" ></center>
-  <h3>Lots of Unused Space</h3>
-  <center><img src="./img/RealTime/problem2.png" alt="problem2" style="width:80%; padding-bottom:50px;"></center>
-
-  <h3>Zero Flexibility (No filter, No user control, No search option)</h3>
-  <center><img src="./img/RealTime/problem3.png" alt="problem3" style="width:80%"></center>
-</div>
-    <br><br><br>
-    <div class="Summary">
-      <h1>Solutions</h1>
-      <p >A redesign of the entire website that follows Nielson’s 10 heuristic evaluation.
-        Also conducted interviews with potential users to obtain detailed information about
-        how they currently use this app, what they currently like or don’t like about it, and
-        what kind of struggle they encounter while using the app.</p>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="index.html#page-top">EF</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html#aboutme">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html#designprocess">Design Process</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html#project">Project</a>
+          </li>
+        </ul>
       </div>
     </div>
-    <br><br><br>
-    <div>
-      <h1>Wireframes</h1>
-      <center><img src="./img/RealTime/WireFrame.png" alt="RealTimeOpsWireFrame"></img></center>
-    </div>
-    <br><br><br>
-    <div>
-      <h1>Flowchart</h1>
-      <center><img src="./img/RealTime/FlowChart.png" alt="RealTimeOpsFlowChart"></img></center>
-    </div>
-    <br><br><br>
-    <div>
-      <h1>Prototype</h1>
-      <center><img src="./img/RealTime/Prototype.png" alt="RealTimeOpsPrototype"></img></center>
-    </div>
-    <br><br><br>
+  </nav>
+
+  <!-- Header -->
+  <header >
+
+      <div >
+          <center><img src="./img/RealTime/cover.jpg" alt="levelupPicture" style="width:100%;"></img></center>
+      </div>
+
+  </header>
+  <!-- Intro -->
+  <section class="page-section" >
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading ">UCI Real-Time Ops Web (Redesign)</h2>
+          <p>Real-Time Ops is a web that has been use by all the managers in the UCI Student Center & Event Services.
+            The purpose of this app is to automate and show the Student Center shift report data. Ensure the voice of the customer
+             is consistently considered in strategic action items and key requirements of product and process design.</p>
+
+        </div>
 
 
 
-  <br>
-  <div>
-    <center><a class="downloadLink" href="https://sketch.cloud/s/OWkA8" target="_blank">View Project</a></center>
+        <div class="col-lg-12 text-center">
+          <h3 class="section-subheading text-muted"></h3>
+        </div>
 
-  </div>
+        <div class="col-lg-6">
+          <center><h4 class="projectSubHeader">Period<h4>
+          <p class="text-muted service-heading">March 2019 - June 2019
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <center><h4 class="projectSubHeader">Project Type<h4>
+          <p class="text-muted service-heading">Work Project
+          </p>
+        </div>
+
+        <div class="col-lg-12 text-center">
+          <h3 class="section-subheading text-muted"></h3>
+        </div>
+
+        <div class="col-lg-6">
+          <center><h4 class="projectSubHeader">Tools<h4>
+          <p class="text-muted service-heading">Sketch</br>
+          Trello</br>
+          Sketch Cloud</br>
+          Slack</br>
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <center><h4 class="projectSubHeader">Methods<h4>
+          <p class="text-muted service-heading">User & Stakeholder Interviews</br>
+          Sketching</br>
+          Wireframes</br>
+          Prototyping</br>
+          </p>
+        </div>
+
+      </div>
+      </div>
+    </section>
+
+<!-- Understand -->
+<section class="bg-light page-section" >
+<div class="container">
   <div class="row">
-  <div style="text-align: center;"class="column">
-    <a href="ASW.html"><p>< View Previous Project<br>(Art Supply Warehouse) </p><a>
+    <div class="col-lg-12 text-center">
+      <h2 class="section-heading ">Understand Current Problem</h2>
+
+    </div>
   </div>
-  <div style="text-align: center;"class="column">
-    <a href="AMT.html"><p>View Next Project<br>(UCI Accounts Management Tool) ></p><a>
+  <div class="col-lg-12 text-center">
+    <h4 class="section-heading addBotPad20 ">Information Overload</h4>
+    <center><img src="./img/RealTime/problem1.png" alt="Information Overload" style="width:100%;"></img></center>
   </div>
+  <div class="col-lg-12 text-center">
+    <h4 class="section-heading addBotPad20 addTopPad40">Lots of Unused Space</h4>
+    <center><img src="./img/RealTime/problem2.png" alt="Lots of Unused Space" style="width:100%;"></img></center>
+  </div>
+  <div class="col-lg-12 text-center">
+    <h4 class="section-heading addBotPad20 addTopPad40">Zero Flexibility (No filter, No user control, No search option)</h4>
+    <center><img src="./img/RealTime/problem3.png" alt="Zero Flexibility" style="width:100%;"></img></center>
   </div>
 
 
+</section>
+
+<!-- Research -->
+<section class=" page-section" >
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading ">Research</h2>
+
+      </div>
+      <div class="col-lg-5 text-center">
+          <center><img src="./img/RealTime/interviewPix.png" alt="UserInterview" style="width:80%;"></img></center>
+      </div>
+      <div class="col-lg-7 ">
+        <h4 >User Interview</h4>
+        <p>Conducted over 10 interviews with student employees and operation managers. My questions mainly focused on what data are the most important for them, how often they view this data, and any feedback on the current UI design.</p>
+      </div>
+    </div>
+
+    </section>
+
+    <!-- Solution -->
+    <section class="bg-light page-section" >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading ">Solution</h2>
+
+          </div>
+          <div class="col-lg-5 ">
+            <h4 >Nielsen's ten heuristic evaluation</h4>
+            <p>After conducting all the interviews, I decided to use nielsen's ten heuristic evaluation to help me identify the usability problems and make improvement on the redesign.</p>
+          </div>
+          <div class="col-lg-7 text-center">
+              <center><img src="./img/RealTime/heuristicEval.jpg" alt="UserInterview" style="width:80%;"></img></center>
+          </div>
+        </div>
+
+        </section>
+
+    <!-- Design -->
+    <section class=" page-section" >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading ">Design</h2>
+
+          </div>
+
+          <div class="col-lg-12 text-center">
+            <h4 >Wireframes</h4>
+            <p>I created the wireframes for couple of the main pages to which allows me to present my ideas to the managers.<p>
+            <center><img src="./img/RealTime/WireFrame.png" alt="wireframe" style="width:100%;" class="addTopPad40"></img></center>
+          </div>
+
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading "> </h2>
+            <div class="aligncenter" style="width:100%;height:0;border-top:2px solid #bebebe;font-size:0;">-</div>
+            <h2 class="section-heading "> </h2>
+          </div>
 
 
-</div>
+          <div class="col-lg-12 text-center">
+            <h4 >User Flow Chart</h4>
+            <p class="addBotPad20"> I created the user flow chart to indicate a visualization of the website<p>
+            <center ><img src="./img/RealTime/FlowChart.png" alt="flowchart" style="width:100%;" ></img></center>
+          </div>
+
+
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading "> </h2>
+            <div class="aligncenter" style="width:100%;height:0;border-top:2px solid #bebebe;font-size:0;">-</div>
+            <h2 class="section-heading "> </h2>
+          </div>
+
+
+          <div class="col-lg-12 text-center">
+            <h4 >Prototype</h4>
+            <p class="addBotPad20"> Prototype was created after I got approval of the wireframes from operation managers.
+              After I finished the prototype, I routed the prototype to all the managers and other full- time staff for approval.
+            <p>
+          </div>
+            <center><img src="./img/RealTime/prototype.png" alt="flowchart"  style="width:100%;"></img></center>
+
+            <div class="col-lg-12 text-center">
+              <h2 class="section-heading "></h2>
+
+            </div>
+
+
+            <div class="col-lg-4 text-center" >
+              <a  class="btn btn-secondary btn-l " href="ASW.html" > < View Previous Project </a>
+            </div>
+            <div class="col-lg-4 text-center">
+              <a class="btn btn-primary btn-l text-uppercase" href="https://sketch.cloud/s/OWkA8" target="_blank">View Prototype</a>
+            </div>
+            <div class="col-lg-4 text-center ">
+
+            </div>
+
+
+        </div>
+
+        </section>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <h5>714-388-4818<h5>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline social-buttons">
+
+            <li class="list-inline-item">
+              <a href="https://linkedin.com/in/edward-fu-linkin/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Edwardf1@uci.edu<h5>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/agency.min.js"></script>
 
 </body>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-<footer>
-
-  <center>
-    <div class="footerText" style="padding-top:10px;">Edward Fu
-
-
-    <p><span>Email: edwardf1@uci.edu</span>
-      <span style="padding-left:15px; padding-right:15px;">•</span>
-
-    <span>Phone Number: 714-388-4818</span></p>
-
-  </div></center>
-
-  <a href="http://www.linkedin.com/in/edward-fu-linkin"target="_blank">
-    <img  class="linkinIcon" src="./img/Linkin.png" alt="Linkin" >
-  </a>
-
-
-
-</footer>
-
-
-
 
 </html>
+<!-- text change in home page -->
+<script>
+var text = ["design", "research", "problem solve"];
+var counter = 0;
+var elem = document.getElementById("changeText");
+var inst = setInterval(change, 1500);
+
+function change() {
+  elem.innerHTML = text[counter];
+  counter++;
+  if (counter >= text.length) {
+    counter = 0;
+    // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
+  }
+}
+</script>
