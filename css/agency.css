@@ -46,8 +46,12 @@ h2{
 .addTopPad40{
   padding-top: 40px;
 }
+
 .addMargin40{
   margin-top: 50px;
+}
+.addMargin20{
+  margin-top: 20px;
 }
 .projectSubHeader{
   color: #007CEA;
