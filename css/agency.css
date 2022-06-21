@@ -17,6 +17,17 @@ p {
 ul,ol{
   font-size: 18px;
 }
+ul.check{
+  list-style: none;
+  margin-left: 0;
+padding-left: 0;
+}
+
+ul.check li:before {
+
+ content: '✓';
+ padding-right: 5px;
+}
 
 
 
